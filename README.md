@@ -79,6 +79,7 @@ this should produce a flashable out/target/product/otter/cm_otter-ota-eng.$USER.
 
 
 ### Credits and Thanks
+* Whistlestop for the initial repos.
 * sitic for writing the walk through for JackpotClavin's CM9 repo.
 * Pkt_Lnt providing fixes listed in extra information.
 
