@@ -4,7 +4,8 @@
 
 |||
 |-----------------------------------:|:--------------------------|
-|**Discussion and build thred**: | http://forum.xda-developers.com/showthread.php?t=1390773
+|**Discussion and build thred** | http://forum.xda-developers.com/showthread.php?t=1390773
+|**Looking to build for TWRP (no recovery option in reboot menu)?** | [checkout the master branch](https://github.com/IngCr3at1on/CM7KF)
 
 ## Building 
 
@@ -74,8 +75,10 @@ this should produce a flashable out/target/product/otter/cm_otter-ota-eng.$USER.
 
 ### Extra information
 * Some people have had issues getting the numbers to return to the top of the stock keyboard; to fix this go into the keyboard settings and make sure your language settings are correct.
+* If you are coming from stock you will need to move all your books from /sdcard/Books/ to sdcard/kindle/ (please note some of these may need to be redownloaded).
 
 
-### Credits
-* Thanks to sitic for writing the walk through for JackpotClavin's CM9 repo.
+### Credits and Thanks
+* sitic for writing the walk through for JackpotClavin's CM9 repo.
+* Pkt_Lnt providing fixes listed in extra information.
 
