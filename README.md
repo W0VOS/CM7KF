@@ -42,9 +42,9 @@ git checkout cwm
 cd ..
 mkdir -p device/amazon/ vendor/amazon
 cd device/amazon
-ln -s ../../github/device/amazon blaze
+ln -s ../../github/device/amazon/blaze blaze
 cd ../../vendor/amazon/
-ln -s ../../github/vendor/amazon blaze
+ln -s ../../github/vendor/amazon/blaze blaze
 cd ../..
 ```
 
