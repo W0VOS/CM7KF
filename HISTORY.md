@@ -15,3 +15,6 @@ Using U.S. date format...
 ###01/29/2012:
 * Updated README.md
 * Changed History layout slightly
+
+###continued:
+* Updated README.md: Whistlestop hasn't (may not, unsure) merged my CWM branch so to build from it we need to pull from my repos. Also corrected symlinks and added an extra information section towards the end (put keyboard fix information in there, please add other fixes like this to this section).
