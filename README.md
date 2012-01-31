@@ -4,7 +4,8 @@
 
 |||
 |-----------------------------------:|:--------------------------|
-|**Discussion and build thred** | http://forum.xda-developers.com/showthread.php?t=1390773
+|**Whistlestop's Discussion and build thread** | http://forum.xda-developers.com/showthread.php?t=1390773
+|**Skimp Killah's binary build** | http://forum.xda-developers.com/showthread.php?t=1472609
 |**Looking to build for TWRP (no recovery option in reboot menu)?** | [checkout the master branch](https://github.com/IngCr3at1on/CM7KF)
 
 ## Building 
@@ -79,6 +80,7 @@ this should produce a flashable out/target/product/otter/cm_otter-ota-eng.$USER.
 
 
 ### Credits and Thanks
+* JackpotClavin for original concept build.
 * Whistlestop for the initial repos.
 * sitic for writing the walk through for JackpotClavin's CM9 repo.
 * Pkt_Lnt providing fixes listed in extra information.
