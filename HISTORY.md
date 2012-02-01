@@ -28,3 +28,6 @@ Using U.S. date format...
 ###02/01/2012:
 * Changed blaze.mk; removed inherit of launguages_full this is already inherited in full_base, using less_full_base.mk which I added to the build directory (this removes camera, voicedialer and protips; still looking into removing other things without causing FCs in certain apps).
 * Updated README.md; can't beleive I missed that.
+* Changed blaze.mk; moved locales for mdpi to set after inheritting base.mk (fixes keyboard allowing it to load proper language on boot, en_US instead of MD_US)
+* Added market permissions to allow more downloads (fix derived from sitics market fix for CM9, thank you sitic)
+
