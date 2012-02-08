@@ -6,7 +6,6 @@
 |-----------------------------------:|:--------------------------|
 |**Whistlestop's Discussion and build thread** | http://forum.xda-developers.com/showthread.php?t=1390773
 |**Skimp Killah's binary build** | http://forum.xda-developers.com/showthread.php?t=1472609
-|**Takenover83's 'Custom TWRP backup'** | http://forum.xda-developers.com/showthread.php?t=1475054
 |**Looking to build for TWRP (no recovery option in reboot menu)?** | [checkout the master branch](https://github.com/IngCr3at1on/CM7KF)
 
 ## Building 
@@ -87,5 +86,4 @@ If the signing process fails try to run it again (the following command is extra
 * sitic for writing the walk through for JackpotClavin's CM9 repo.
 * Pkt_Lnt providing fixes listed in extra information.
 * SkimpKilla for compiling this into something people can flash.
-* Takenover83; a custom backup file is the weirdest concept ever but people like it so have at it.
 

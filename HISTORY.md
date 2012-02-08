@@ -34,6 +34,4 @@ Using U.S. date format...
 ###02/08/2012:
 * Updates made to other repos in tree effecting this device, check the [changelog](https://github.com/IngCr3at1on/android/blob/gingerbread/CHANGELOG.md) markdown for the project manifest for more information.
 * Added idle/standby information to extra info.
-* Updated build threads.
-* Updated credits.
 
