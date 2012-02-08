@@ -1,5 +1,3 @@
-$(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
-
 # The gps config appropriate for this device
 $(call inherit-product, device/common/gps/gps_us_supl.mk)
 
@@ -16,8 +14,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/misc/vold.fstab:system/etc/vold.fstab \
     $(LOCAL_PATH)/misc/media_profiles.xml:system/etc/media_profiles.xml
-
-PRODUCT_LOCALES += mdpi
 
 # Place permission files
 PRODUCT_COPY_FILES += \
@@ -78,7 +74,11 @@ ro.config.notification_sound=ro.config.alarm_alert=Alarm_Classic.ogg \
 net.bt.name=Android \
 dalvik.vm.stack-trace-file=/data/anr/traces.txt \
 
-$(call inherit-product, build/target/product/full_base.mk)
+# Use added less_full_base.mk to remove unwanted apps
+$(call inherit-product, build/target/product/less_full_base.mk)
+
+# Set mdpi locale after inheritting base.mk (corrects default language loading as MD)
+PRODUCT_LOCALES += mdpi
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 PRODUCT_NAME := full_blaze
